@@ -10,4 +10,4 @@ RUN apt-get update \
 
 VOLUME ["/usr/src/app/web"]
 
-ENTRYPOINT ["python", "pokecli.py"]
+ENTRYPOINT ["/usr/src/app/init.sh"]
